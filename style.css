@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #26355D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    position: relative; /* Ensure the nav container is positioned */
+}
+
+.circle {
+    position: absolute; /* Allows positioning within the nav container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #AF47D2; /* Adjust background as needed */
+    border-radius: 50%; /* Makes the div circular */
+}
+
+#arrow {
+    top: -10px; /* Adjust to move closer to the corner */
+    left: -10px; /* Adjust to move closer to the corner */
+}
+
+#bar {
+    top: -10px; /* Adjust to move closer to the corner */
+    right: -10px; /* Adjust to move closer to the corner */
+}
+
+
+.music-player{
+    background: #FF8F00;
+    width: 400px ;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.song-img{
+    width: 200px;
+    border-radius:50%;
+    border: 8px solid #AF47D2;
+    box-shadow: 0 10px 60px rgba(255, 26,26, 0.22);
+}
+
+.music-player h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
+}
+.music-player p{
+    font-size: 14px;
+    color: black;
+}
+
+.bottom-footer a{
+    color: black;
+    font-size: medium;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px ;
+    background: #FFDB00;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px0;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #FFDB00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #AF47D2;
+    box-shadow: 0 5px 5px rgba(255, 26,26, 0.22);
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #AF47D2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFDB00;
+    box-shadow: 0 10px 20px rgba(255, 26,26, 0.22);
+    cursor: pointer;  
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background: #AF47D2;
+    color: #FFDB00;
+}
+
+
+
+
+
+
+
